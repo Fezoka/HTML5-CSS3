@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+
+    <style>
+        mark{
+            background-color: rgb(81, 255, 0);
+        }
+    </style>
+
+</head>
+<body>
+    <h1> Principais formatações </h1>
+
+        <h2> Negrito / Destaque </h2>
+            <p>
+                Nessa frase, usamos a tag &lt;b&gt; <b>cu</b> &lt;/b&gt; para deixar em Negrito (não semântica).
+            </p>
+            <p>
+                E nessa, temos uma &lt;strong&gt; <strong>strong</strong> &lt;/strong&gt; (semântica).
+            </p>
+
+        <h2> Itáilico  / Ênfase </h2>
+            <p>
+                Nesta frase, temos um termo &lt;i&gt; <i>itálico</i> &lt;/i&gt; (não semântica).
+            </p>
+            <p>
+                Nesta frase, temos um termo em &lt;em&gt; <em>Ênfase</em> &lt;/em&gt; (semântica).
+            </p>
+
+        <h2>Texto marcado</h2>
+            <p>
+                Podemos criar também um 
+                &lt;mark&gt;  <!--"<" da frase-->
+                <mark style="background-color:rgb(245, 0, 122)">
+                    texto marcado ROSA
+                </mark>         <!--"coloração" da palavra-->
+                &lt;/mark&gt;. <!--">" da frase-->
+            </p>
+            <p>
+                E nesse temos a cor 
+                &lt;mark&gt;  <!--"<" da frase-->
+                <mark>Padrão do site</mark>
+                &lt;/mark&gt; <!--">" da frase-->
+                (Padrão de marcação).
+            </p>
+
+        <h2>Texto grande e pequeno</h2>
+            <p>
+                Estamos criando um 
+
+                &lt;big&gt;
+                <big>
+                    texto Grande
+                </big>
+                &lt;/big&gt; 
+
+                e um  
+
+                &lt;small&gt;
+                <small>
+                    texto Pequeno
+                </small>
+                &lt;/small&gt;
+
+                 neste parágrafo.
+            </p>
+        
+        <h2>Texto deletado</h2>
+            <p>
+                Podemos marcar um 
+                
+                &lt;del&gt;
+                <del>
+                    texto como excluido
+                </dell
+                >&lt;/del&gt;
+
+                 para indicar que ele deve ser lido mas não considerado.
+            </p>
+
+        <h2>Texto inserido</h2>
+            <p>
+                Podemos marcar um 
+
+                &lt;ins&gt;
+                <ins>
+                    texto como inserido
+                </ins>
+                &lt;/ins&gt;
+
+                 para dar um ênfase e indicar que ele foi adicionado depois.
+            </p>
+            <p>
+                Existe também o 
+                &lt;u&gt;
+                <u>
+                    sublinhado
+                </u>
+                &lt;/u&gt;
+                que não é semântico.
+            </p>
+        
+        <h2>Texto sobrescrito</h2>
+            <p>
+                Para inserir coisas do tipo X<sup>2</sup>+3, com a tag &lt;sup&gt; &lt;/sup&gt; 
+            </p>
+
+        <h2>Texto subscrito</h2>
+            <p>
+                Para inserir coisas do tipo H<sub>2</sub>O, com a tag &lt;sub&gt; &lt;/sub&gt;
+            </p>
+</body>
+</html>
