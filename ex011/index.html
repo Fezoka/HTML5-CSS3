@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou simplesmente  aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="img/p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="img/m.png" type="image/png">
+        <img src="img/G.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+        <p>
+            Bora aprender a reproduzir áudio em HTML 
+        </p>
+
+
+ <!--   <audio src="med/Lazy.mp3" autoplay loop ></audio> ESSE É O MAIS FÁCIL -->
+        <audio preload="auto" autoplay loop>
+            <source src="med/Lazy.mp3" type="audio/mpeg">
+            <source src="med/Lazy.ogg" type="audio.ogg">
+            <source src="med/Lazy.wav" type="audio/wav">
+            <p>
+                Infelizmente o seu navegador não é compatível com áudio, clique <a href="med/Lazy.mp3">aqui para efetuar Download</a>
+            </p>
+        </audio>
+</body>
+</html>

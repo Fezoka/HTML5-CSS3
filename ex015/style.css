@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    font-style: italic;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: cyan;
+}
+
+p {
+    color: blanchedalmond;
+    text-align: justify;
+}
+
